@@ -1,0 +1,163 @@
+// Wrapper
+.SimpleHistoryLogitems:before,
+.SimpleHistoryLogitems:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.SimpleHistoryGui {
+	width: 100%;	
+}
+
+.SimpleHistoryGui, 
+.SimpleHistoryGuiExample {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+	height: auto;
+	min-height: 100%;
+}
+
+.SimpleHistoryLogitems {
+	padding: 1rem;
+}
+
+.SimpleHistoryLogitem__header {
+	padding-top: 0;
+	padding-bottom: 1rem;
+}
+
+.postbox .SimpleHistoryLogitem {
+	width: 32.333%;
+	margin-right: 1.333%;
+	margin-bottom: 1.5em;
+	float: left;
+	background-color: white;
+	border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	height: 340px;
+	text-align: center;
+	box-sizing: border-box;
+	cursor: pointer;
+
+	box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14);
+
+	-webkit-transition: all 300s ease;
+	-o-transition: all 300s ease;
+	-moz-transition: all 300s ease;
+	-ms-transition: all 300s ease;
+	transition: all 300s ease;
+}
+
+.postbox .SimpleHistoryLogitem:nth-child(3n) {
+	margin-right: 0;
+}
+
+
+@media (max-width: 1000px) {
+	.postbox .SimpleHistoryLogitem {
+		float: none;
+		margin-right: none;
+		width: 100%;
+	}
+}
+
+.postbox .SimpleHistoryLogitem__senderImage {
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
+}
+
+.postbox .SimpleHistoryLogitem--initiator-wp .SimpleHistoryLogitem__senderImage:before, .postbox .SimpleHistoryLogitem--initiator-wp_cli .SimpleHistoryLogitem__senderImage:before, .postbox .SimpleHistoryLogitem--initiator-web_user .SimpleHistoryLogitem__senderImage:before {
+	font-size: 60px;
+}
+
+.SimpleHistoryLogitem__firstcol {
+	padding: 2rem;
+	float: none;
+}
+
+.postbox .SimpleHistoryLogitem__secondcol {
+	margin-left: 0;
+}
+
+.postbox .SimpleHistoryLogitem__text {
+	font-size: 1rem;
+	line-height: 2;
+	float: none;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+
+.postbox .SimpleHistoryLogitem__details {
+	font-size: 1.5rem;	
+}
+
+.button-edit {
+	margin-left: .5rem !important;
+}
+
+.shl_searchholder {
+	text-align: center;
+	padding: 2rem;
+}
+
+.shl_deleted {
+	color: #FF4136;
+	 /*text-decoration: line-through;*/
+}
+
+.shl_updated {
+	color: #2ECC40;
+	 /*text-decoration: line-through;*/
+}
+
+.shl_dashicons {
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 1rem;
+	font-size: 1em;
+}
+
+.SimpleHistoryLogitem__text .button {
+	display: block;
+	max-width: 100px;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+
+.SimpleHistoryQuickStats {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+
+.SimpleHistoryPaginationLink.SimpleHistoryPaginationLink {
+	font-size: 2rem;
+	width: 60px;
+	line-height: 40px;
+	height: 40px;
+}
+
+.postbox .SimpleHistoryPaginationLink, 
+.postbox .SimpleHistoryPaginationCurrentPage {
+	font-size: 1.2rem;
+	width: 60px;
+	line-height: 40px;
+	height: 40px;
+}
+
+.SimpleHistoryPaginationPages {
+	font-size: 1.2rem;
+}
+
+.SimpleHistoryLogitems__pagination {
+	clear: both;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.postbox .SimpleHistoryPaginationPages {
+  padding-top: 48px;
+  padding-bottom: 8px;
+}
