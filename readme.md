@@ -9,6 +9,18 @@ A simple addon for the fine plugin [Simple History](https://wordpress.org/plugin
 
 ![Screenshot](https://raw.github.com/urre/simple-history-cards/master/screenshot-1.png)
 
+## Install
+1. Install plugin from the WordPress plugin directory. (soon)
+
+## Install manually
+1. Download [zip](https://github.com/urre/simple-history-cards/archive/master.zip) and extract
+2. Rename the folder from `simple-history-cards-master` to `simple-history-cards`
+3. Upload the plugin to your plugins directory
+4. Activate the plugin
+
+## Uninstall
+1. Deactivate plugin
+
 ### Changelog
 
 + 1.0.0 First version released
