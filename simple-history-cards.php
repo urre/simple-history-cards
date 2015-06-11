@@ -3,7 +3,7 @@
 Plugin Name: Simple History Cards
 Plugin URI: https://github.com/urre/
 Description: A simple plugin for enhancing Simple History
-Version: 0.1.0
+Version: 1.0.0
 Author: Urban Sanden
 Author URI: http://urre.me
 Author Email: hej@urre.me
