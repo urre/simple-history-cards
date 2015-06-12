@@ -1,6 +1,6 @@
 # Simple History Cards
 
-A simple addon for the fine plugin [Simple History](https://wordpress.org/plugins/simple-history/) by [Per Thernström](http://eskapism.se/). Using a card based layout with icons indicating user action.
+A simple addon for the fine plugin [Simple History](https://wordpress.org/plugins/simple-history/) by [Pär Thernström](http://eskapism.se/). Using a card based layout with icons indicating user action.
 
 ## Features
 
