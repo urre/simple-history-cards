@@ -59,7 +59,7 @@
 			jQuery('.SimpleHistoryLogitem__senderImage img').attr('height', '40');
 
 			// Add summary card
-			if(jQuery('.SimpleHistoryLogitem').length < 21) {
+			if(jQuery('.SimpleHistoryLogitem').length < 21 && !jQuery(this).next('.SimpleHistoryLogitem SimpleHistoryLogitem--last').length ) {
 				jQuery('.SimpleHistoryLogitems').append('<li class="SimpleHistoryLogitem SimpleHistoryLogitem--last"><a target="_blank" href="'+url+'" class="button button-primary">Visit site</a><a href="'+url+'/wp-admin/edit.php" class="button">Posts</a><a href="'+url+'/wp-admin/edit.php?post_type=page" class="button">Pages</a><a href="'+url+'/wp-admin/options-general.php" class="button">Settings</a></li>');
 			}
 
