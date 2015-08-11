@@ -12,7 +12,7 @@
 
 		// Set postbox width
 		jQuery('#simple_history_dashboard_widget').parent().parent("#postbox-container-1").css('width', '100%');
-		
+
 		// Set wider search field and focus
 		jQuery(".SimpleHistoryFilterDropin-searchInput").css('width', '50%');
 		if(jQuery(window).width() > 768) {
@@ -51,6 +51,11 @@
 
 		});
 
+		// Center search options
+		jQuery(window).on("load", function() {
+			jQuery('.shl_searchholder').next().css('text-align', 'center');
+		});
+
 		// Do stuff after Ajax requests finish
 		jQuery( document ).ajaxComplete(function() {
 
@@ -59,7 +64,7 @@
 			jQuery('.SimpleHistoryLogitem__senderImage img').attr('height', '40');
 
 			// Add summary card
-			if(jQuery('.SimpleHistoryLogitem').length < 21 && !jQuery(this).next('.SimpleHistoryLogitem SimpleHistoryLogitem--last').length ) {
+			if(!jQuery('.SimpleHistoryLogitem--last').length) {
 				jQuery('.SimpleHistoryLogitems').append('<li class="SimpleHistoryLogitem SimpleHistoryLogitem--last"><a target="_blank" href="'+url+'" class="button button-primary">Visit site</a><a href="'+url+'/wp-admin/edit.php" class="button">Posts</a><a href="'+url+'/wp-admin/edit.php?post_type=page" class="button">Pages</a><a href="'+url+'/wp-admin/options-general.php" class="button">Settings</a></li>');
 			}
 

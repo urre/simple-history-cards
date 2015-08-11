@@ -245,3 +245,31 @@
   padding-top: 48px;
   padding-bottom: 8px;
 }
+
+.SimpleHistoryFilterDropin-searchInput {
+	width: 50%;
+}
+
+@media (max-width: 1000px) { 
+	.SimpleHistoryFilterDropin-searchInput {
+		width: 90%;
+	}
+}
+
+.SimpleHistory__filters__filter--date, 
+.SimpleHistoryFilterDropin-searchInput {
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+@media (max-width: 1000px) { 
+	.SimpleHistory__filters__filter--date, 
+	.SimpleHistoryFilterDropin-searchInput {
+		width: 90%;
+	}
+}
+
+.SimpleHistory__filters__moreFilters {
+	text-align: center;
+}
