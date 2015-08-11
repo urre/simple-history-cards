@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Simple History Cards
-Plugin URI: https://github.com/urre/
-Description: A simple plugin for enhancing Simple History
+Plugin URI: https://github.com/urre/simple-history-cards
+Description: Card based layout for Simple History
 Version: 1.0.1
 Author: Urban Sanden
 Author URI: http://urre.me

@@ -1,6 +1,8 @@
 # Simple History Cards
 
-A simple addon for the fine plugin [Simple History](https://wordpress.org/plugins/simple-history/) by [Pär Thernström](http://eskapism.se/). Using a card based layout with icons indicating user action.
+Card based layout for Simple History.
+
+Simple History Cards enhances [Simple History](https://wordpress.org/plugins/simple-history/) by [Pär Thernström](http://eskapism.se/). It shows recent changes as cards and indicates user actions with icons. Since card based layout needs some more space, Simple History Cards will use the full width of the admin dashboard.
 
 ## Features
 
@@ -23,5 +25,5 @@ A simple addon for the fine plugin [Simple History](https://wordpress.org/plugin
 
 ### Changelog
 
-+ 1.0.1 Adjustments for new Simple History features
++ 1.0.1 Added support for new Simple History features
 + 1.0.0 First version released
