@@ -23,4 +23,5 @@ A simple addon for the fine plugin [Simple History](https://wordpress.org/plugin
 
 ### Changelog
 
++ 1.0.1 Adjustments for new Simple History features
 + 1.0.0 First version released
