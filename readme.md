@@ -2,12 +2,13 @@
 
 Card based layout for Simple History.
 
-Simple History Cards enhances [Simple History](https://wordpress.org/plugins/simple-history/) by [Pär Thernström](http://eskapism.se/). It shows recent changes as cards and indicates user actions with icons. Since card based layout needs some more space, Simple History Cards will use the full width of the admin dashboard.
+Simple History Cards enhances [Simple History](https://wordpress.org/plugins/simple-history/) by [Pär Thernström](http://eskapism.se/). Shows recent changes as cards and indicates user actions with icons. Addon for Simple History that shows recent changes as cards and indicates user actions with icons. 
 
 ## Features
 
-+ Card based layout
++ Card based layout for large screens
 + Full width dashboard layout
++ Icons with different colors indicating user actions
 
 ![Screenshot](https://raw.github.com/urre/simple-history-cards/master/screenshot-1.png)
 

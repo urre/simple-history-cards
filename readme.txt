@@ -10,7 +10,13 @@ Card based layout for Simple History.
 
 == Description ==
 
-Simple History Cards enhances Simple History. It shows recent changes as cards and indicates user actions with icons. Since card based layout needs some more space, SImple History Cards will use the full width of the admin dashboard.
+Addon for Simple History that shows recent changes as cards and indicates user actions with icons. 
+
+1. Card based layout for large screens
+2. Full width dashboard layout
+3. Icons with different colors indicating user actions
+
+* [Github](https://github.com/urre/simple-history-cards)
 
 == Installation ==
 
@@ -21,6 +27,10 @@ Simple History Cards enhances Simple History. It shows recent changes as cards a
 == Feedback ==
 
 Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do something about it.
+
+== Screenshots ==
+
+1. Simple History Cards
 
 == Changelog ==
 
