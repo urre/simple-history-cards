@@ -38,7 +38,7 @@ class SHC {
 
     public function register_admin_styles() {
         if (is_admin()) {
-            wp_enqueue_style( 'simple-history-cards-plugin-styles', plugins_url( 'simple-history-cards/css/simple-history-cards.admin.css' ) );
+            wp_enqueue_style( 'simple-history-cards-plugin-styles', plugins_url( 'simple-history-cards/css/simple-history-cards.admin.css' ),'', '', 'screen and (min-width: 768px)' );
         }
     }
 

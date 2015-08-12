@@ -60,13 +60,6 @@
 	margin-right: 0;
 }
 
-@media (max-width: 1000px) {
-	.postbox .SimpleHistoryLogitem {
-		float: none;
-		margin-right: none;
-		width: 100%;
-	}
-}
 
 .postbox .SimpleHistoryLogitem__senderImage {
 	margin: 0 auto;
@@ -250,24 +243,11 @@
 	width: 50%;
 }
 
-@media (max-width: 1000px) { 
-	.SimpleHistoryFilterDropin-searchInput {
-		width: 90%;
-	}
-}
-
 .SimpleHistory__filters__filter--date, 
 .SimpleHistoryFilterDropin-searchInput {
 	width: 50%;
 	margin: 0 auto;
 	display: block;
-}
-
-@media (max-width: 1000px) { 
-	.SimpleHistory__filters__filter--date, 
-	.SimpleHistoryFilterDropin-searchInput {
-		width: 90%;
-	}
 }
 
 .SimpleHistory__filters__moreFilters {
