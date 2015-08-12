@@ -13,7 +13,7 @@ Simple History Cards enhances [Simple History](https://wordpress.org/plugins/sim
 ![Screenshot](https://raw.github.com/urre/simple-history-cards/master/screenshot-1.png)
 
 ## Install
-1. Install plugin from the WordPress plugin directory. (soon)
+1. Install plugin from the [WordPress plugin directory](https://wordpress.org/plugins/simple-history-cards/)
 
 ## Install manually
 1. Download [zip](https://github.com/urre/simple-history-cards/archive/master.zip) and extract
