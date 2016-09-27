@@ -1,9 +1,9 @@
 === Simple History Cards ===
 Contributors: urre
-Donate link: hej@urre.me
+Donate link: https://www.paypal.me/urbansanden
 Tags: simple history, cards, user actions, changelog
 Requires at least: 3.0
-Tested up to: 4.2.4
+Tested up to: 4.6.1
 Stable tag: 1.0.1
 
 Card based layout for Simple History.
